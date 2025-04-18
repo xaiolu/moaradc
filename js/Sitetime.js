@@ -14,7 +14,7 @@ function siteTime() {
      var todaySecond = today.getSeconds();
 
 
-     var t1 = Date.UTC(2024, 06, 27, 13, 57); 
+     var t1 = Date.UTC(2025, 04, 18, 13, 57); 
      var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
      var diff = t2 - t1;
      var diffYears = Math.floor(diff / years);
