@@ -1,3 +1,3 @@
-# [xiao.github.io/moaradc/](https://github.com/xaiolu/moaradc/)
+# [xiao.github.io/moaradc/](https://xiao.github.io/moaradc/)
 
 #个人主页，仅供学习
