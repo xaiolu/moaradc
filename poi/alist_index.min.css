@@ -1,0 +1,265 @@
+/**
+ * Failed to minify the file using clean-css v5.3.2. Serving the original version.
+ * Original file: cdn.jsdelivr.net/gh/kasuie/alist-customize@main/v3/css/index.css
+ *
+ * Do NOT use SRI with dynamically generated files! More information: https://www.jsdelivr.com/using-sri-with-dynamic-files
+ 自定义头部：<link href="https://moaradc.github.io/poi/alist_index.min.css" rel="stylesheet" type="text/css" />
+ */
+:root
+ {  --mio-primary: 135, 142, 205; /* 主题色 #878ecd */
+  --mio-primary50: 63, 194, 214 ;
+}
+
+/*加载图标*/
+div.hope-spinner {
+  color: rgba(var(--mio-primary));
+}
+/* 去除通知栏 右上角 X */
+ .notify-render .hope-close-button {
+    display: none;
+}
+/*白天背景图*/
+.hope-ui-light {
+    background-image: url("https://t.alcy.cc/fj") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+/*夜晚背景图*/
+.hope-ui-dark {
+    background-image: url("https://moaradc.github.io/img/fjtu.png") !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+/*针对Firefox内核白天背景图*/
+@-moz-document url-prefix() {
+    .hope-ui-light {
+        background-image: url("https://api.asxe.vip/scenery.php") !important;
+    }
+}
+/*主列表白天模式模糊*/
+ .obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-igScBhH-css {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+backdrop-filter: blur(5px)!important;
+}
+/*主列表夜间模式模糊*/
+ .obj-box.hope-stack.hope-c-dhzjXW.hope-c-PJLV.hope-c-PJLV-iigjoxS-css {
+    background-color:rgb(0 0 0 / 40%) !important;
+backdrop-filter: blur(5px)!important;
+}
+/*readme白天模式模糊*/
+ .hope-c-PJLV.hope-c-PJLV-ikSuVsl-css {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+backdrop-filter: blur(5px)!important;
+}
+/*readme夜间模式模糊*/
+ .hope-c-PJLV.hope-c-PJLV-iiuDLME-css {
+    background-color:rgb(0 0 0 / 40%) !important;
+backdrop-filter: blur(5px)!important;
+}
+
+/*顶部右上角切换按钮透明*/
+ .hope-ui-light .hope-c-ivMHWx-hZistB-cv.hope-icon-button {
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+.hope-ui-dark .hope-c-ivMHWx-hZistB-cv.hope-icon-button {
+    background-color:rgb(0 0 0 / 30%) !important;
+}
+/*menu下拉区域
+div.hope-menu__content {
+  background-color: var(--mio-main-opacity));
+}*/
+/*右下角侧边栏按钮模糊 第一个是白天 第二个是夜间*/
+ .hope-ui-light .hope-c-PJLV-ijgzmFG-css {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+backdrop-filter: blur(5px)!important;
+}
+.hope-ui-dark .hope-c-PJLV-ijgzmFG-css {
+    background-color:rgb(0 0 0 / 20%) !important;
+backdrop-filter: blur(5px)!important;
+}
+
+/* 右下角侧边栏按钮 */
+div.left-toolbar-box,
+div.center-toolbar {
+  z-index: 1;
+}
+div.left-toolbar-box div.left-toolbar svg.hope-icon,
+div.left-toolbar-box svg.hope-icon {
+  color: rgba(var(--mio-primary));
+}
+
+/*白天模式 搜索主体+毛玻璃*/
+.hope-ui-light .hope-c-PJLV-iiBaxsN-css{
+   background-color: rgba(255,255,255,0.2)!important;
+   backdrop-filter: blur(10px)!important;
+}
+
+/*白天模式 搜索栏输入框+毛玻璃*/
+.hope-ui-light .hope-c-kvTTWD-hYRNAb-variant-filled{
+   background-color: rgba(255,255,255,0.2)!important;
+   backdrop-filter: blur(10px)!important;
+}
+
+/*白天模式 搜索按钮+毛玻璃*/
+.hope-ui-light .hope-c-PJLV-ikEIIxw-css{
+   background-color: rgba(255,255,255,0.2)!important;
+   backdrop-filter: blur(10px)!important;
+   padding: var(--hope-space-1)!important;
+}
+
+/*夜间模式搜索主体+毛玻璃*/
+.hope-ui-dark .hope-c-PJLV-iiBaxsN-css{
+    background-color: rgb(0 0 0 / 10%)!important;
+    backdrop-filter: blur(10px)!important;
+}
+
+/*夜间模式搜索栏+毛玻璃*/
+.hope-ui-dark .hope-c-kvTTWD-hYRNAb-variant-filled{
+    background-color: rgb(0 0 0 / 10%)!important;
+    backdrop-filter: blur(10px)!important;
+}
+
+/*夜间模式 搜索按钮+毛玻璃*/
+.hope-ui-dark .hope-c-PJLV-ikEIIxw-css{
+    background-color: rgb(0 0 0 / 10%)!important;
+    backdrop-filter: blur(10px)!important;
+    padding: var(--hope-space-1)!important;
+}
+
+/*白天模式代码块透明*/
+ .hope-ui-light pre {
+    background-color: rgba(255, 255, 255, 0.1)!important;
+}
+/*夜间模式代码块透明*/
+ .hope-ui-dark pre {
+    background-color: rgba(255, 255, 255, 0)!important;
+}
+
+/*左侧侧边栏目录*/
+/*白天模式*/
+ .hope-ui-light .hope-c-PJLV-ieGWMbI-css {
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+/*夜间模式*/
+ .hope-ui-dark .hope-c-PJLV-ieGWMbI-css {
+    background-color:rgb(0 0 0 / 40%) !important;
+}
+
+/* 返回顶部 */
+ .hope-c-PJLV-ihVEsOa-css {
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+.hope-ui-dark .hope-c-PJLV-ihVEsOa-css {
+    background-color:rgb(0 0 0 / 40%) !important;
+}
+
+/*正常情况未使用吸附功能*/
+/*顶部*/
+ .hope-c-PJLV-ikaMhsQ-css {
+    background: rgba(255, 255, 255, 0) !important;
+}
+/*导航条*/ 
+/*白天模式*/
+ .hope-ui-light .hope-c-PJLV-idaeksS-css {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-radius: var(--hope-radii-xl) !important;
+backdrop-filter: blur(5px)!important;
+}
+/*夜间模式*/
+ .hope-ui-dark .hope-c-PJLV-idaeksS-css {
+    background-color:rgb(0 0 0 / 30%) !important;
+    border-radius: var(--hope-radii-xl) !important;
+backdrop-filter: blur(5px)!important;
+}
+/* 吸附到页面顶部 */
+/*顶部*/
+ .hope-c-PJLV-icWrYmg-css {
+    background: rgba(255, 255, 255, 0) !important;
+}
+/*导航条*/
+ .hope-c-PJLV-icKsjdm-css::after {
+    background: rgba(255, 255, 255, 0) !important;
+}
+/*白天模式*/
+ .hope-ui-light .hope-c-PJLV-icKsjdm-css {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-radius: var(--hope-radii-xl) !important;
+}
+/*夜间模式*/
+ .hope-ui-dark .hope-c-PJLV-icKsjdm-css {
+    background-color:rgb(0 0 0 / 40%) !important;
+    border-radius: var(--hope-radii-xl) !important;
+}
+
+/*仅吸附导航栏*/
+/*导航条*/
+ .hope-c-PJLV-ifdXShc-css::after {
+    background: rgba(255, 255, 255, 0) !important;
+}
+/*白天模式*/
+ .hope-ui-light .hope-c-hrsMRY {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    border-radius: var(--hope-radii-xl) !important;
+}
+/*夜间模式*/
+ .hope-ui-dark .hope-c-hrsMRY {
+    background-color:rgb(0 0 0 / 40%) !important;
+    border-radius: var(--hope-radii-xl) !important;
+}
+
+/*底部CSS，.App .table这三个一起的*/
+ dibu {
+    border-top: 0px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.App {
+    min-height: 85vh;
+}
+.table {
+    margin: auto;
+}
+/*去掉底部*/
+ .footer {
+    display: none !important;
+}
+/*全局字体*/
+ * {
+    font-family:LXGW WenKai
+}
+* {
+    font-weight:bold
+}
+body {
+    font-family: LXGW WenKai;
+}
+
+/*管理后台*/
+div#root div.hope-c-PJLV-iiLzBwx-css {
+  background: transparent;
+}
+/*登录页*/
+div.hope-c-PJLV-ibcBsNO-css .hope-c-PJLV-ifJliWT-css,
+div.hope-c-PJLV-ibcBsNO-css .hope-c-PJLV-igjRXTJ-css {
+  display: none;
+}
+div.hope-c-PJLV-ibcBsNO-css div.hope-c-PJLV-ibiABng-css,
+div.hope-c-PJLV-ibcBsNO-css div.hope-c-PJLV-ihWgyFw-css {
+  background-color: transparent;
+}
+/*登录框*/
+div.hope-c-PJLV-ibcBsNO-css div.hope-c-PJLV-iubUra-css,
+div.hope-c-PJLV-ibcBsNO-css .hope-c-PJLV-ifjOQLV-css {
+  background-color: rgba(var(--mio-main), 0.5);
+  backdrop-filter: blur(10px);
+}
+div.hope-c-PJLV-ibcBsNO-css div.hope-c-PJLV-idKXllh-css a {
+  display: none;
+}
